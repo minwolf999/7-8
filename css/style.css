@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #18f;
+    flex-direction: column;
+    width: 100%;
+}
+
+.Message{
+    color: #fff;
+    padding: 5px 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+section{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section .calcul{
+    display:flex;
+}
+
+section .calcul h1 {
+    color: #fff;
+    font-size: 50px;
+    margin: 0 20px;
+}
+
+h2 {
+    color:#fff;
+    margin: 10px 0;
+}
+
+input{
+    padding: 10px 0;
+    border: 0;
+    outline: 0;
+    color:#fff;
+    border-bottom: 2px solid #fff;
+    background-color: transparent;
+    margin-bottom: 30px;
+}
+
+input[type="submit"], button {
+    color: white;
+    padding: 10px 65px;
+    border: 0;
+    background-color: blue;
+    cursor:pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+input[type="submit"]:hover, button:hover {
+    letter-spacing: 2px;
+}
+
+.score{
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+}
+
+a{
+    color: #fff;
+    text-decoration: 0;
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin: 25px 0;
+    display: none;
+}
+
+span{
+    font-size: 100px;
+}
+
+.link{
+    font-weight: bold;
+}
+
+input[type=number] {
+    text-align: center;
+    font-size: 50px;
+}
